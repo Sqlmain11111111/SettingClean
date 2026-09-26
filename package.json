@@ -1,0 +1,17 @@
+{
+  "name": "suij-keyauth-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SUIJ KeyAuth login server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
